@@ -1,14 +1,21 @@
 :root {
-    --color-primary: #4a90e2;
+    --color-primary: #e0a912;
     --color-secondary: #f5a623;
     --color-bg: #efaeae;
     --color-text: #333333;
-    --color-light: #f4e1f0;
+    --color-light: #2fa76d;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: var(--color-light);
+    background:
+    linear-gradient(rgba(113, 179, 139, 0.644),rgba(113, 179, 139, 0.644)),
+    url(../img/spa.jpg);
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-size: cover; /* Escala la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-attachment: fixed; /* Hace que la imagen se mantenga fija al hacer scroll */
+
     
 }
 
