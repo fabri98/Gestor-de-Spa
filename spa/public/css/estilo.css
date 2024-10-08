@@ -1,13 +1,14 @@
 :root {
-    --color-primary: #4a90e2;
+    --color-primary: #4d4e51;
     --color-secondary: #f5a623;
-    --color-bg: #efaeae;
-    --color-text: #333333;
-    --color-light: #f4e1f0;
+    --color-bg: #f1d8d8;
+    --color-text: #4d4e51;
+    --color-light: #d8e2d9;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
     background-color: var(--color-light);
     
 }
@@ -16,7 +17,7 @@ body {
 
 .section-title {
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
+    font-size: 2.6rem;
     font-weight: 700;
     color: var(--color-primary);
     text-align: center;

@@ -33,7 +33,7 @@ Route::get('/noticias', [NoticiaController::class,'show']);
 Route::get('/noticias/{id}', [NoticiaController::class, 'detalle'])->name('noticias.detalle_noticia');
 
 Route::get('/reservar-turno', [TurnoController::class, 'reservarTurno'])->middleware('auth');
-Route::post('/guardar-turno', [TurnoController::class,'guardarTurno'])->middleware('auth');;
+Route::post('/guardar-turno', [TurnoController::class,'guardarTurno'])->middleware('auth');
 Route::get('/mis-turnos', [TurnoController::class, 'misTurnos'])->name('turnos.mis_turnos');
 Route::get('/turnos/{id}', [TurnoController::class, 'detalle'])->name('turnos.detalle_turno');
 Route::delete('/eliminar-turno/{id}',[TurnoController::class, 'cancelarTurno'])->name('turnos.eliminar');
